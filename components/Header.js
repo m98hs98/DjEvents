@@ -6,15 +6,15 @@ export default function Header() {
     <header className={styles.header}>
         <div className={styles.logo}>
             <Link href='/'>
-                <a>DJ Events</a>
+                DJ Events
             </Link>
         </div>
 
         <nav>
             <ul>
                 <li>
-                    <Link href='/events' legacyBehavior>
-                        <a>Events</a>
+                    <Link href='/events'>
+                        Events
                     </Link>
                 </li>
             </ul>
